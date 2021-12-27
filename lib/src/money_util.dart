@@ -84,7 +84,8 @@ class MoneyUtil {
   /// yuan to fen.
   /// 元 转 分，
   static int changeY2F(Object yuan) {
-    return NumUtil.multiplyDecStr(yuan.toString(), '100').toInt();
+    return 2;
+    // return NumUtil.multiplyDecStr(yuan.toString(), '100').toInt();
   }
 
   /// with unit.
